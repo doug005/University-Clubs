@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<head>
+    <title>Our Clubs - University Student Clubs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h1>Limkokwing University <span>Clubs</span></h1>
+                        <p class="campus-info">Student Activities Center</p>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="clubs.html" class="nav-link">Clubs</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Our Clubs</h1>
+                <p class="hero-subtitle">Find Your Passion, Join Your Community</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clubs Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Available Clubs</h2>
+                <p>Choose from our diverse range of student clubs and organizations</p>
+            </div>
+            
+            <div class="clubs-detailed-grid">
+                <!-- Tech Club -->
+                <article class="club-detailed-card" id="tech">
+                    <div class="club-header">
+                        <div class="club-icon-large">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="club-info">
+                            <h3>Tech Club</h3>
+                            <p class="club-manager">President: Katiso Molejane</p>
+                        </div>
+                    </div>
+                    <div class="club-content">
+                        <p class="club-description">Innovate and create with cutting-edge technology. Join us to explore the world of programming, AI, web development, and digital innovation through hands-on projects and workshops.</p>
+                        
+                        <div class="club-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Tech Building: Room 301</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Tuesdays & Thursdays, 4:00 PM - 6:00 PM</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>150+ Active Members</span>
+                            </div>
+                        </div>
+                        
+                        <div class="club-activities">
+                            <h4>Activities & Focus Areas:</h4>
+                            <ul>
+                                <li><i class="fas fa-code"></i> Web Development Workshops</li>
+                                <li><i class="fas fa-robot"></i> AI & Machine Learning Projects</li>
+                                <li><i class="fas fa-mobile-alt"></i> App Development Sessions</li>
+                                <li><i class="fas fa-gamepad"></i> Game Development</li>
+                                <li><i class="fas fa-network-wired"></i> Cybersecurity Training</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn btn-primary join-club-btn">Join Tech Club</button>
+                    </div>
+                </article>
+
+                <!-- Drama Club -->
+                <article class="club-detailed-card" id="drama">
+                    <div class="club-header">
+                        <div class="club-icon-large">
+                            <i class="fas fa-theater-masks"></i>
+                        </div>
+                        <div class="club-info">
+                            <h3>Drama Club</h3>
+                            <p class="club-manager">Director: Tebatso Khoarai</p>
+                        </div>
+                    </div>
+                    <div class="club-content">
+                        <p class="club-description">Express yourself through theater and performance arts. Discover your acting talent, participate in productions, and learn stagecraft in a supportive, creative environment.</p>
+                        
+                        <div class="club-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Arts Center: Studio B</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Mondays & Wednesdays, 6:00 PM - 8:30 PM</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>120+ Active Members</span>
+                            </div>
+                        </div>
+                        
+                        <div class="club-activities">
+                            <h4>Activities & Focus Areas:</h4>
+                            <ul>
+                                <li><i class="fas fa-microphone"></i> Acting Workshops</li>
+                                <li><i class="fas fa-music"></i> Musical Theater Productions</li>
+                                <li><i class="fas fa-film"></i> Stage Direction & Production</li>
+                                <li><i class="fas fa-dragon"></i> Improvisation Sessions</li>
+                                <li><i class="fas fa-pen-fancy"></i> Playwriting Workshops</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn btn-primary join-club-btn">Join Drama Club</button>
+                    </div>
+                </article>
+
+                <!-- Debate Club -->
+                <article class="club-detailed-card" id="debate">
+                    <div class="club-header">
+                        <div class="club-icon-large">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="club-info">
+                            <h3>Debate Club</h3>
+                            <p class="club-manager">Captain: Katleho Khamokha</p>
+                        </div>
+                    </div>
+                    <div class="club-content">
+                        <p class="club-description">Sharpen your arguments, critical thinking, and public speaking skills. Engage in meaningful discussions, competitive debates, and develop persuasive communication abilities.</p>
+                        
+                        <div class="club-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Humanities Building: Room 205</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Fridays, 3:00 PM - 5:00 PM</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>90+ Active Members</span>
+                            </div>
+                        </div>
+                        
+                        <div class="club-activities">
+                            <h4>Activities & Focus Areas:</h4>
+                            <ul>
+                                <li><i class="fas fa-brain"></i> Critical Thinking Sessions</li>
+                                <li><i class="fas fa-bullhorn"></i> Public Speaking Training</li>
+                                <li><i class="fas fa-trophy"></i> Inter-collegiate Debate Competitions</li>
+                                <li><i class="fas fa-globe"></i> Current Affairs Discussions</li>
+                                <li><i class="fas fa-gavel"></i> Mock Trial Simulations</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn btn-primary join-club-btn">Join Debate Club</button>
+                    </div>
+                </article>
+
+                <!-- Sports Club -->
+                <article class="club-detailed-card" id="sports">
+                    <div class="club-header">
+                        <div class="club-icon-large">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <div class="club-info">
+                            <h3>Sports Club</h3>
+                            <p class="club-manager">Coordinator: Mpho Thasi</p>
+                        </div>
+                    </div>
+                    <div class="club-content">
+                        <p class="club-description">Stay active, build teamwork, and compete in various sports. Whether you're a beginner or experienced athlete, there's a place for you to enjoy physical activity and sportsmanship.</p>
+                        
+                        <div class="club-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Sports Complex & Various Fields</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Various times throughout the week</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>200+ Active Members</span>
+                            </div>
+                        </div>
+                        
+                        <div class="club-activities">
+                            <h4>Activities & Focus Areas:</h4>
+                            <ul>
+                                <li><i class="fas fa-basketball-ball"></i> Basketball Tournaments</li>
+                                <li><i class="fas fa-futbol"></i> Soccer Matches & Training</li>
+                                <li><i class="fas fa-table-tennis"></i> Table Tennis Competitions</li>
+                                <li><i class="fas fa-volleyball-ball"></i> Volleyball Games</li>
+                                <li><i class="fas fa-swimmer"></i> Swimming & Fitness</li>
+                            </ul>
+                        </div>
+                        
+                        <button class="btn btn-primary join-club-btn">Join Sports Club</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- React Modal Root -->
+    <div id="react-modal-root"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>University Clubs</h3>
+                    <p>Empowering students to explore passions beyond the classroom and build lasting connections.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Student Center Main Campus Building</p>
+                        <p><i class="fas fa-phone"></i> +266 56396873</p>
+                        <p><i class="fas fa-envelope"></i> clubs@university.edu</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 9AM-5PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 University Student Clubs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="club-registration.js"></script>
+</body>
+</html>

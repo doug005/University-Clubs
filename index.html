@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <title>University Student Clubs - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <!-- Header , Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h1>Limkokwing University <span>Clubs</span></h1>
+                        <p class="campus-info">Student Activities Center</p>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="clubs.html" class="nav-link">Clubs</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Limkokwing University Clubs</h1>
+                <p class="hero-subtitle">Discover Your Passion, Build Your Community</p>
+                <div class="hero-buttons">
+                    <a href="clubs.html" class="btn btn-primary">
+                        <i class="fas fa-arrow-right"></i> Explore Clubs
+                    </a>
+                    <a href="clubs.html" class="btn btn-secondary">
+                        <i class="fas fa-user-plus"></i> Join Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Clubs Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Clubs</h2>
+                <p>Join our vibrant student communities and discover your interests</p>
+            </div>
+            <div class="clubs-grid">
+                <article class="club-card">
+                    <div class="club-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tech Club</h3>
+                    <p>Innovate and create with cutting-edge technology. Join workshops and build amazing projects.</p>
+                    <a href="clubs.html#tech" class="btn btn-outline">Learn More</a>
+                </article>
+
+                <article class="club-card">
+                    <div class="club-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <h3>Drama Club</h3>
+                    <p>Express yourself through theater and performance arts. Be part of amazing productions.</p>
+                    <a href="clubs.html#drama" class="btn btn-outline">Learn More</a>
+                </article>
+
+                <article class="club-card">
+                    <div class="club-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Debate Club</h3>
+                    <p>Sharpen your arguments and public speaking skills. Engage in meaningful discussions.</p>
+                    <a href="clubs.html#debate" class="btn btn-outline">Learn More</a>
+                </article>
+
+                <article class="club-card">
+                    <div class="club-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Sports Club</h3>
+                    <p>Stay active and compete in various sports. Build teamwork and sportsmanship.</p>
+                    <a href="clubs.html#sports" class="btn btn-outline">Learn More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Inquiry Form -->
+    <section class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Quick Inquiry</h2>
+                <p>Have questions? Get in touch with us quickly!</p>
+            </div>
+            <form class="inquiry-form" id="homeInquiryForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="homeName">Your Name *</label>
+                        <input type="text" id="homeName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="homeEmail">Email Address *</label>
+                        <input type="email" id="homeEmail" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="homeMessage">Your Message *</label>
+                    <textarea id="homeMessage" name="message" placeholder="Tell us what you're interested in..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-light">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>University Clubs</h3>
+                    <p>Empowering students to explore passions beyond the classroom and build lasting connections.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Student Center Building</p>
+                        <p><i class="fas fa-phone"></i> +266 56396873</p>
+                        <p><i class="fas fa-envelope"></i> clubs@university.edu</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 9AM-5PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 University Student Clubs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

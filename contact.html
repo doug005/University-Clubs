@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Us - University Student Clubs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div>
+                        <h1>Limkokwing University <span>Clubs</span></h1>
+                        <p class="campus-info">Student Activities Center</p>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="clubs.html" class="nav-link">Clubs</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Contact Us</h1>
+                <p class="hero-subtitle">Get in Touch with Our Club Coordinators</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="section-header">
+                        <h2>Get In Touch</h2>
+                        <p>We're here to help you get involved and answer any questions</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Visit Us</h3>
+                                <p>Student Center Building</p>
+                                <p>Room 205, University Main Campus</p>
+                                <p>Hall 7 University Avenue</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Call Us</h3>
+                                <p>+266 56396873</p>
+                                <p>Mon-Fri: 9:00 AM - 5:00 PM</p>
+                                <p>Sat: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Us</h3>
+                                <p>clubs@university.edu</p>
+                                <p>General Inquiries</p>
+                                <p>Response within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Office Hours</h3>
+                                <p>Monday - Friday: 9AM-5PM</p>
+                                <p>Saturday: 10AM-2PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="club-coordinators">
+                        <h3>Club Coordinators</h3>
+                        <div class="coordinator-list">
+                            <div class="coordinator">
+                                <strong>Tech Club:</strong> Katiso Molejane - tech@university.edu
+                            </div>
+                            <div class="coordinator">
+                                <strong>Drama Club:</strong> Tebatso Khoarai - drama@university.edu
+                            </div>
+                            <div class="coordinator">
+                                <strong>Debate Club:</strong> Katleho Khamokha - debate@university.edu
+                            </div>
+                            <div class="coordinator">
+                                <strong>Sports Club:</strong> Mpho Thasi - sports@university.edu
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <div class="section-header">
+                        <h2>Send us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you soon</p>
+                    </div>
+                    
+                    <form class="inquiry-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Full Name *</label>
+                                <input type="text" id="contactName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactStudentId">Student ID</label>
+                                <input type="text" id="contactStudentId" name="studentId" placeholder="Optional">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="phone" placeholder="Optional">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactSubject">Subject *</label>
+                            <select id="contactSubject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="membership">Club Membership</option>
+                                <option value="events">Event Information</option>
+                                <option value="support">Technical Support</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactClub">Club Interest</label>
+                            <select id="contactClub" name="club">
+                                <option value="">Select a club (optional)</option>
+                                <option value="tech">Tech Club</option>
+                                <option value="drama">Drama Club</option>
+                                <option value="debate">Debate Club</option>
+                                <option value="sports">Sports Club</option>
+                                <option value="multiple">Multiple Clubs</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="message" placeholder="Please describe your inquiry in detail..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section dark-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Find Us on Campus</h2>
+                <p>Visit our office in the Student Center Building</p>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Student Center Building</h3>
+                    <p>Room 205, Second Floor</p>
+                    <p>123 University Avenue</p>
+                    <p>Campus Map Reference: SC-205</p>
+                    <div class="map-directions">
+                        <p><i class="fas fa-walking"></i> 5 min from Main Library</p>
+                        <p><i class="fas fa-bus"></i> Near Campus Shuttle Stop #3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>University Clubs</h3>
+                    <p>Empowering students to explore passions beyond the classroom and build lasting connections.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="clubs.html">Our Clubs</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 University Student Clubs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
